@@ -94,6 +94,9 @@
 #' @param pal Name of the palette(s) to return
 #' @param alpha Control transparency - set alpha channel to alpha (0 -
 #'        fully transparent, 1 - fully opaque)
+#' @param drop.alpha If true, and if alpha is NULL, the "FF" string of the
+#'        alpha channel will
+#'        not be attached to the produced RGB codes
 #' @return Either a list of palettes, or (if only one palette was selected)
 #'         a character vector with colors
 #' @seealso \code{\link{col2rgb.2}}, \code{\link{rgb2col}},
@@ -103,9 +106,10 @@
 #' safe <- plotPals("safe") # colorblind-safe palette
 #' plotwidgetGallery(pal=safe)
 #' @export
-plotPals <- function(pal=NULL, alpha=1) {
+plotPals <- function(pal=NULL, alpha=1, drop.alpha=TRUE) {
   p <- .pals()
   alpha <- sprintf("%02X", round(alpha * 255))
+  if(alpha == "FF") alpha <- ""
   p <- lapply(p, .palfromstring, transparent=alpha)
   if(!is.null(pal)) {
     if(any(!pal %in% names(p))) {

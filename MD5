@@ -1,9 +1,9 @@
-808e88e3051cc4ce67f87fc8cdf5e1c8 *DESCRIPTION
+e7fee6a10dd9c1e8fc541457bf838fd5 *DESCRIPTION
 0eac057ad3b7fbde2d92f6064c3b0fd4 *NAMESPACE
 811840df424295e7329fde9fe056eba0 *NEWS
 eed2f508fc502bfb676cd7d23c2e2bc8 *R/gallery.R
-60051818b25025cc47f2884628456446 *R/palettes.R
-3b91b4467107326055060ace07e73024 *R/plotwidgets.R
+8327017fe335ca4cfae8454fbcdabf6b *R/palettes.R
+1e51c05eab2d2b4fc2edd940b573e05e *R/plotwidgets.R
 9f5295cbf53222271e672a971dc3b445 *R/widgets.R
 e82865e5795c987851c53b82d0db5d6c *man/colorConversions.Rd
 0d3ffba9d9737490756a734c0334e195 *man/figures/gallery.pdf
@@ -16,7 +16,7 @@ f6b63fc16f00033675b126795751ed31 *man/figures/palettes.pdf
 eda08612553ad35d28f1a5a37f229cda *man/figures/palettes.svg
 a38ee641bf87e7dc8ec84fb55ed301fa *man/listPlotWidgets.Rd
 63fb17fff01bef03f8405f67ac448cb1 *man/modCol.Rd
-e9c55731d0142aa4e0a72a029ec59f85 *man/plotPals.Rd
+0fd45399ae3fd42250f4d52109c90fe9 *man/plotPals.Rd
 926b1c6185fbe19567022a16e67c3872 *man/plotwidgetGallery.Rd
 6ed3b91cbe3c6084eb50de7a118ca94a *man/plotwidgets.Rd
 1885af73214a92368a8412657b32dd88 *man/showPals.Rd

@@ -2,8 +2,8 @@ Package: plotwidgets
 Type: Package
 Title: Spider Plots, ROC Curves, Pie Charts and More for Use in Other
         Plots
-Version: 0.4
-Date: 2016-09-06
+Version: 0.5.1
+Date: 2022-05-10
 Author: January Weiner
 Maintainer: January Weiner <january.weiner@gmail.com>
 Description: Small self-contained plots for use in larger plots or to
@@ -11,11 +11,10 @@ Description: Small self-contained plots for use in larger plots or to
     alternative color palettes and HSL color space based tools to modify
     colors or palettes.
 License: GPL (>= 2.0)
-LazyData: false
 Imports: methods,graphics
 Suggests: testthat,knitr
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2016-09-06 11:42:27.611 UTC; january
+Packaged: 2022-05-10 10:06:10 UTC; january
 Repository: CRAN
-Date/Publication: 2016-09-06 14:53:55
+Date/Publication: 2022-05-10 12:20:02 UTC

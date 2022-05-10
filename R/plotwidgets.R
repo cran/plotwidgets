@@ -173,7 +173,7 @@ plotWidget <- function(type="pie", x=0.5, y=0.5, w=1, h=1, v,
 }
 
 
-.isnn <- function(x) is.null(x) || is.na(x)
+.isnn <- function(x) any(is.null(x) | is.na(x))
 
 .upcaseFist <- function(name) paste0(toupper(substring(name, 1, 1)), substring(name, 2))
 

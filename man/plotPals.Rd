@@ -4,13 +4,17 @@
 \alias{plotPals}
 \title{Return all or selected color palettes}
 \usage{
-plotPals(pal = NULL, alpha = 1)
+plotPals(pal = NULL, alpha = 1, drop.alpha = TRUE)
 }
 \arguments{
 \item{pal}{Name of the palette(s) to return}
 
 \item{alpha}{Control transparency - set alpha channel to alpha (0 -
 fully transparent, 1 - fully opaque)}
+
+\item{drop.alpha}{If true, and if alpha is NULL, the "FF" string of the
+alpha channel will
+not be attached to the produced RGB codes}
 }
 \value{
 Either a list of palettes, or (if only one palette was selected)
